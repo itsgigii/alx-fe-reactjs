@@ -1,8 +1,11 @@
+import './App.css';
+import Search from './components/Search';
+
 function App() {
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="App">
       <h1>GitHub User Search</h1>
-      <p>Search for GitHub profiles</p>
+      <Search />
     </div>
   );
 }
